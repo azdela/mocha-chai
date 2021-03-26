@@ -1,0 +1,27 @@
+{
+  "name": "mocha-chai-1",
+  "version": "1.0.0",
+  "description": "Demos unit test in mocha and chai",
+  "main": "index.js",
+ "scripts": {
+    "test": "mocha || true",
+    "coverage": "nyc npm run test"
+  }
+,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LopeznoeGH/mocha-chai.git"
+  },
+  "author": "Noe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LopeznoeGH/mocha-chai/issues"
+  },
+  "homepage": "https://github.com/LopeznoeGH/mocha-chai#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-asserttype": "^1.0.5",
+    "mocha": "^8.3.2",
+    "nyc": "^15.1.0"
+  }
+}
